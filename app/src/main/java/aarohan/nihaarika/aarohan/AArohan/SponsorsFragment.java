@@ -1,4 +1,4 @@
-package aarohan.nihaarika.aarohan;
+package aarohan.nihaarika.aarohan.AArohan;
 
 
 import android.os.Bundle;
@@ -7,12 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import aarohan.nihaarika.aarohan.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class SponsorsFragment extends Fragment {
-
 
     public SponsorsFragment() {
         // Required empty public constructor
@@ -25,5 +26,6 @@ public class SponsorsFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sponsors, container, false);
     }
+
 
 }

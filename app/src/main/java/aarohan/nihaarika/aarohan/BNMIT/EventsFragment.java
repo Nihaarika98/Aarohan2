@@ -1,4 +1,4 @@
-package aarohan.nihaarika.aarohan;
+package aarohan.nihaarika.aarohan.BNMIT;
 
 
 import android.app.Activity;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import aarohan.nihaarika.aarohan.AArohan.Event;
+import aarohan.nihaarika.aarohan.R;
 
 
 /**

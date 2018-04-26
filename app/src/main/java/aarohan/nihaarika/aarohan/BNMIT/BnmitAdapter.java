@@ -1,18 +1,16 @@
-package aarohan.nihaarika.aarohan;
+package aarohan.nihaarika.aarohan.BNMIT;
 
-import android.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import static aarohan.nihaarika.aarohan.TabFragment.int_items;
+import static aarohan.nihaarika.aarohan.BNMIT.Tab_Fragment_For_BNM_MBA.int_item_in_BNMIT;
 
 /**
  * Created by nihaarika on 26/4/18.
  */
 
-public class MyAdapter extends FragmentPagerAdapter {
-
-    public MyAdapter(FragmentManager fm)
+public class BnmitAdapter extends FragmentPagerAdapter {
+    public BnmitAdapter(FragmentManager fm)
     {
         super(fm);
     }
@@ -20,15 +18,11 @@ public class MyAdapter extends FragmentPagerAdapter {
     public android.support.v4.app.Fragment getItem(int position) {
         switch (position){
             case 0:
-                return new AboutFragment();
+                return new About_BNM();
             case 1:
-                return new EventsFragment();
+                return new About_MBA();
             case 2:
-                return new SponsorsFragment();
-            case 3:
-                return new PhotosFragment();
-
-
+                return new Events_IN_MBA();
         }
         return null;
     }
@@ -37,21 +31,22 @@ public class MyAdapter extends FragmentPagerAdapter {
     public int getCount() {
 
 
-        return int_items;
+        return int_item_in_BNMIT;
     }
 
     public CharSequence getPageTitle(int position){
         switch (position){
             case 0:
-                return "ABOUT";
+                return "ABOUT BNM";
             case 1:
-                return "EVENTS";
+                return "ABOUT MBA";
             case 2:
-                return "SPONSORS";
-            case 3:
-                return "PHOTOS";
+                return "EVENTS";
+
         }
 
         return null;
     }
 }
+
+

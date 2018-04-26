@@ -1,4 +1,4 @@
-package aarohan.nihaarika.aarohan;
+package aarohan.nihaarika.aarohan.AArohan;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.VideoView;
+
+import aarohan.nihaarika.aarohan.R;
 
 public class Splash_Screen extends Activity {
     VideoView videoView;
@@ -22,6 +24,7 @@ public class Splash_Screen extends Activity {
             public void run() {
                 Intent intent = new Intent(Splash_Screen.this,NavigationActivity.class);
                 startActivity(intent);
+                Splash_Screen.this.finish();
             }
         },5000);
 

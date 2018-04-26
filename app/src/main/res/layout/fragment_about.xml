@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/black"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="aarohan.nihaarika.aarohan.AboutFragment">
+    tools:context="aarohan.nihaarika.aarohan.AArohan.AboutFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,8 +29,8 @@
                 android:layout_marginTop="20dp"
                 android:id="@+id/Video_Layout"
             android:layout_height="match_parent">
-          <VideoView
-              android:layout_width="wrap_content"
+          <com.google.android.youtube.player.YouTubePlayerView
+              android:layout_width="match_parent"
               android:id="@+id/Promo_code"
               android:layout_height="200dp" />
             <ProgressBar

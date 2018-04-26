@@ -6,16 +6,13 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@android:drawable/presence_audio_busy"
-            android:title="About MBA " />
+            android:id="@+id/home"
+            android:title="HOME" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/inaugralfunction"
             android:title="Inaugural Function " />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/contact_us"
             android:title="Contact Us" />
 
     </group>
@@ -23,13 +20,11 @@
     <item android:title="Social Media">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Instagram" />
+                android:id="@+id/instagram"
+                android:title="Instagram Page" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Facebook" />
+                android:id="@+id/facebook"
+                android:title="Facebook Page" />
         </menu>
     </item>
 

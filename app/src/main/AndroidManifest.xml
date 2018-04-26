@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="aarohan.nihaarika.aarohan">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,11 +14,9 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Splash_Screen"
-            android:theme="@style/Theme.Design.NoActionBar">
+            android:name=".BNMIT.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="MBA-BNM">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,10 +24,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Event"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".NavigationActivity"
-            android:theme="@style/Theme.Design.NoActionBar"></activity>
+            android:name=".AArohan.Splash_Screen"
+            android:theme="@style/Theme.Design.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".AArohan.Event"
+            android:parentActivityName=".BNMIT.MainActivity" />
+        <activity
+            android:name=".AArohan.NavigationActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".AArohan.Inaugural"></activity>
     </application>
 
 </manifest>

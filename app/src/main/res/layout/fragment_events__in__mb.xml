@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aarohan.nihaarika.aarohan.BNMIT.Events_IN_MBA">
+    <android.support.v7.widget.CardView
+        style="@style/card_view_style_event_"
+        android:id="@+id/past_event"
+        >
+        <TextView
+        style="@style/text_view_inside_cardview"
+            android:text="PAST EVENT"/>
+    </android.support.v7.widget.CardView>
+<android.support.v7.widget.CardView
+    android:visibility="gone"
+    android:layout_gravity="center"
+    android:id="@+id/excel_workshop"
+    style="@style/card_view_style_events_smaller">
+    <TextView
+        style="@style/text_view_inside_cardview"
+        android:text="EXCEL-WORKSHOP"/>
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+     style="@style/card_view_style_event_"
+        android:id="@+id/Current_events">
+        <TextView
+            style="@style/text_view_inside_cardview"
+            android:text="CURRENT EVENT"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/aarohan_from_events"
+        android:visibility="gone"
+        style="@style/card_view_style_events_smaller">
+        <TextView
+
+            style="@style/text_view_inside_cardview"
+            android:text="AAROHAN"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/upcoming_events"
+        style="@style/card_view_style_event_">
+        <TextView
+            style="@style/text_view_inside_cardview"
+            android:text="..UPCOMING EVENTS"/>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

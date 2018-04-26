@@ -1,4 +1,4 @@
-package aarohan.nihaarika.aarohan;
+package aarohan.nihaarika.aarohan.AArohan;
 
 
 import android.app.Activity;
@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
+
+import aarohan.nihaarika.aarohan.R;
 
 
 /**
