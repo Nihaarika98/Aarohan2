@@ -43,47 +43,7 @@
     android:layout_marginTop="10dp"
     android:id="@+id/Promo_code"
     android:layout_below="@id/title"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="40dp"
-                android:layout_below="@+id/Promo_code"
-                android:layout_centerHorizontal="true"
-                android:id="@+id/events"
-                android:text="Events"/>
- <LinearLayout
-     android:layout_width="wrap_content"
-     android:layout_below="@id/events"
-     android:layout_centerHorizontal="true"
-     android:orientation="vertical"
-     android:layout_marginTop="20dp"
-     android:layout_height="wrap_content">
-     <ImageView
-         style="@style/image_event"
-         android:src="@drawable/back"
-         android:id="@+id/Annihilation"
-        />
-     <ImageView
-         style="@style/image_event"
-         android:src="@drawable/back"
-         android:id="@+id/Cease_Fire"/>
-     <ImageView
-         style="@style/image_event"
-         android:src="@drawable/back"
-         android:id="@+id/Maneuver"/>
-     <ImageView
-         style="@style/image_event"
-         android:src="@drawable/back"
-         android:id="@+id/Manstein_plan"/>
-     <ImageView
-         style="@style/image_event"
-         android:src="@drawable/back"
-         android:id="@+id/Blitzkrieg"/>
-     <ImageView
-         style="@style/image_event"
-         android:src="@drawable/back"
-         android:id="@+id/Polarity"/>
- </LinearLayout>
+
 
         </RelativeLayout>
 

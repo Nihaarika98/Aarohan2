@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="aarohan.nihaarika.aarohan.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aarohan"
+                android:id="@+id/title"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/lithographic"
+                android:text="Unleash The Brand You Are"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Video_Layout"
+            android:layout_height="match_parent">
+          <VideoView
+              android:layout_width="wrap_content"
+              android:id="@+id/Promo_code"
+              android:layout_height="200dp" />
+            <ProgressBar
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/progrss"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/Video_Layout"
+                android:text="About Aarohan"
+                android:textSize="20dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/lithographic"
+                android:layout_marginTop="20dp"
+                android:id="@+id/about"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/about"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:foregroundGravity="center"
+            android:layout_centerInParent="true"
+            android:id="@+id/Arohan_About"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
